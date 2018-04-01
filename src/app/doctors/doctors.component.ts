@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Doctor } from './doctor';
+import { StressStudentTemplates } from '../stress-student-templates/mockStudentTemplates';
 
 @Component({
   selector: 'app-doctors',
@@ -11,6 +12,7 @@ export class DoctorsComponent implements OnInit {
      id :1,
      name:"Nishantha"
    };
+   StressStudentTemplates = StressStudentTemplates;
   constructor() { }
 
   ngOnInit() {

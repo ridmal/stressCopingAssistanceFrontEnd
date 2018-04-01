@@ -1,6 +1,11 @@
 # StressCopingAssistanceFrontEnd
 
+Front End development of Stress coping assistance web application.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.4.
+
+## Contribute
+
+Create a branch with your name or task name. And make a issue relevent to your task and start development.
 
 ## Development server
 
@@ -25,3 +30,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+

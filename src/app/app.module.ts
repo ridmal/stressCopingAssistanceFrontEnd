@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { DoctorsComponent } from './doctors/doctors.component';
+import { StressStudentTemplatesComponent } from './stress-student-templates/stress-student-templates.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DoctorsComponent
+    DoctorsComponent,
+    StressStudentTemplatesComponent
   ],
   imports: [
     BrowserModule,

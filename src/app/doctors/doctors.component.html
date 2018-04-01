@@ -1,7 +1,31 @@
-<h2>{{ doctor.name | uppercase }} Details</h2>
+<div class="container">
+  <div class="jumbotron">
+<h2>Dr. {{ doctor.name | uppercase }} Details</h2>
 <div><span>id: </span>{{doctor.id}}</div>
 <div>
     <label>name:
       <input [(ngModel)]="doctor.name" placeholder="name">
     </label>
+</div>
+  </div>
+</div>
+<div class="container">
+<ul class ="ssTemplates">
+  <div class = "row">
+  <li *ngFor = "let sTemplate of StressStudentTemplates">
+<div class="col-sm-4">
+     <div class="card" style="width: 18em;margin-top:2em">
+  <div class="card-body">
+    <h5 class="card-title">{{sTemplate.name}}</h5>
+    <div class="card-text">
+      <p>Personality Type : {{sTemplate.personalityType}}</p>
+    <p>Stress Event : {{sTemplate.stressEvent}}</p></div>
+    <a href="#" class="btn btn-primary">Add Coping Solutions</a>
+  </div>
+</div>
+</div>
+
+  </li>
+  </div>
+</ul>
 </div>
